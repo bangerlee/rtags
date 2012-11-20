@@ -54,7 +54,7 @@ function test() {
       ids.should.include('4');
       --pending || done();
     });
-
+*/
   ++pending;
   tags
     .queryID('2', '4')
@@ -63,7 +63,15 @@ function test() {
       ids.should.eql(['mac']);
       --pending || done();
     });
-*/
+
+  ++pending;
+  tags
+    .queryID('2', '3')
+    .end(function(err, ids){
+      if (err) throw err;
+      ids.should.eql([]);
+      --pending || done();
+    });
 }
 
 function done() {
