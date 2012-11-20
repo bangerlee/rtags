@@ -33,7 +33,7 @@ function test() {
       ids.should.include('lock');
       --pending || done();
     });
-/* 
+ 
   ++pending;
   tags
     .queryTag('linux,linus')
@@ -54,7 +54,7 @@ function test() {
       ids.should.include('4');
       --pending || done();
     });
-*/
+
   ++pending;
   tags
     .queryID('2', '4')
