@@ -72,6 +72,22 @@ function test() {
       ids.should.eql([]);
       --pending || done();
     });
+/*
+  ++pending;
+  tags
+    .remove('1', function(err){
+      if (err) throw err;
+      tags.queryID('1').end(function(err, ids){
+        if (err) throw err;
+        ids.should.be.empty;
+        tags.queryTag('linux,1991').end(function(err, ids){
+          if (err) throw err;
+          ids.should.be.empty;
+          --pending || done();
+        });
+      });
+    });
+*/
 }
 
 function done() {
