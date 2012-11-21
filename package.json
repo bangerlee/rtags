@@ -1,6 +1,6 @@
 {
   "name": "rtags",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Tag management system backed by Redis",
   "keywords": [
     "tag",
