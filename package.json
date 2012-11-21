@@ -1,0 +1,19 @@
+{
+  "name": "rtags",
+  "version": "0.0.3",
+  "description": "Tag management system backed by Redis",
+  "keywords": [
+    "tag",
+    "tag management",
+    "redis"
+  ],
+  "author": "LiXin <bangerlee@gmail.com>",
+  "dependencies": {
+    "redis": 0.8.2"
+  },
+  "devDependencies": {
+    "should": "*"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
