@@ -5,8 +5,8 @@
   * Add Tag#queryID
   * Add Tag#queryTag
 
-0.02 / 2012-11-19
-=================
+0.0.2 / 2012-11-19
+==================
 
   * Add examples
   * Add Tag#add
