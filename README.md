@@ -115,8 +115,8 @@ tag.remove('1');
 Running examples:
 
 ```bash
-$ git clone git@github.com:bangerlee/Rtags.git
-$ cd Rtags/test
+$ git clone git@github.com:bangerlee/rtags.git
+$ cd rtags/test
 $ node index.js
 ```
 
