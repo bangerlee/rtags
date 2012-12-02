@@ -119,13 +119,14 @@ $ git clone git@github.com:bangerlee/rtags.git
 $ cd rtags/test
 $ node index.js
 ```
-Readme in Chinese.[1]
+[Readme in Chinese.][0]
 
 ##License (MIT)
 
 Copyright (c) 2012, LiXin, bangerlee@gmail.com.
 
-### Author: [LiXin][0]
+### Author: [LiXin][1]
 
-[0]: http://bangerlee.blogspot.com/
-[1]: http://www.cnblogs.com/bangerlee/archive/2012/12/03/2798680.html
+
+[0]: http://www.cnblogs.com/bangerlee/archive/2012/12/03/2798680.html
+[1]: http://bangerlee.blogspot.com/
